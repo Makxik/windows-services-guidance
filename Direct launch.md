@@ -1,7 +1,7 @@
 # Test configuration 1
 With all services below disabled: <span style="color:red">doesn't boot.</span>
 <details>
-  <summary>REG.exe agg...</summary>
+  <summary>REG.exe add...</summary>
   /v "Start" /t reg_dword /d 4 /f<br />
   WdNisSvc failed<br />
   WinDefend failed<br />
